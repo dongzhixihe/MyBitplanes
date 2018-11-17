@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="types.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitplanes_tracker.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitplanes_channel_data_subsampled.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm_parameters.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ct.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="homography.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="icompare.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imwarp.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="normalization.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="optim_common.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="demo.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="viz.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bitplanes_tracker_pyramid.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="census.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="v128.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_name.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="run_tracker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitplanes_channel_data_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cvfwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitplanes_tracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitplanes_channel_data_subsampled.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="motion_model_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm_parameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="homography.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="icompare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bpmath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="imwarp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="normalization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="optim_common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fit_homography.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="demo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bounded_buffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="viz.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bitplanes_tracker_pyramid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="census.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="v128.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file_name.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

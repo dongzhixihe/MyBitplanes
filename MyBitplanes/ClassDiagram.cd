@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;">
+    <Position X="5.75" Y="0.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Residuals" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Base" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Self" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::Pixels" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelDataSubSampled&lt;M&gt;::MotionModelType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_subsampled.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAACAAEAAAQAAQAIJQAIBIgAAgAAAAAAAAA=</HashCode>
+      <FileName>bitplanes_channel_data_subsampled.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::BitplanesTracker&lt;M&gt;">
+    <Position X="9.5" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::MotionModelType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::ParameterVector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::Solver" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitplanesTracker&lt;M&gt;::ChannelDataType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAACAQIABAAACBAAAFAAAAABAAAAAEFAAAAAAAEAgA=</HashCode>
+      <FileName>bitplanes_tracker.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::BitPlanesTrackerPyramid&lt;M&gt;" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::BitPlanesTrackerPyramid&lt;M&gt;::Tracker" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker_pyramid.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesTrackerPyramid&lt;M&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker_pyramid.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesTrackerPyramid&lt;M&gt;::MotionModelType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_tracker_pyramid.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ACAAQASAAAAAEABAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bitplanes_tracker_pyramid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::BitPlanesChannelData&lt;DerivedType&gt;">
+    <Position X="2.25" Y="0.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::MotionModelType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::Pixels" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::Residuals" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::Derived" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::BitPlanesChannelData&lt;DerivedType&gt;::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAEAAAQAAAAIAAAIBIAAAgAAAAAAAAA=</HashCode>
+      <FileName>bitplanes_channel_data_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::Homography" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::Homography::Base" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::Jacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::ParameterVector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::Homography::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>homography.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAAAAAEEAAgQ=</HashCode>
+      <FileName>homography.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::MotionModel&lt;Derived&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::traits" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::Jacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::ParameterVector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::MotionModel&lt;Derived&gt;::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACABAAAAAAAIAAAAIAAAAAAAAAAAAAEEAAgQ=</HashCode>
+      <FileName>motion_model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::Timer" Collapsed="true">
+    <Position X="20" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::Timer::Milliseconds" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>timer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgAAQAAAAAAAAgAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::simd::censusInvoker&lt;Op&gt;" Collapsed="true">
+    <Position X="18.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAMIAIAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>census.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="bp::simd::CensusResidualsPacked" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAEABAAAAAAAAAQAgAAQAAAAABAAA=</HashCode>
+      <FileName>ct.cc</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoundedBuffer&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="BoundedBuffer&lt;T&gt;::Container_t" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bounded_buffer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="BoundedBuffer&lt;T&gt;::size_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bounded_buffer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="BoundedBuffer&lt;T&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bounded_buffer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="BoundedBuffer&lt;T&gt;::param_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bounded_buffer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIgCAKAAEAACAAAAAAAoAAAAAAA=</HashCode>
+      <FileName>bounded_buffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DemoLiveCapture" Collapsed="true">
+    <Position X="16.5" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="DemoLiveCapture::Impl" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>demo.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAABACAAAAAAAAAAgAAAAAAAAAAACAAA=</HashCode>
+      <FileName>demo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::Mat" Collapsed="true">
+    <Position X="18.25" Y="4" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="cv::Mat::__unnamed_enum_0115_5" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\opencv3\build\include\opencv2\core\mat.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="cv::Mat::__unnamed_enum_0115_6" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\opencv3\build\include\opencv2\core\mat.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>FFCwMAAHGDAAhAAEEIFbCQATBgCjAsLEgUfwMwABAAQ=</HashCode>
+      <FileName>d:\opencv3\build\include\opencv2\core\mat.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::Rect_&lt;_Tp&gt;" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="cv::Rect_&lt;_Tp&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\opencv3\build\include\opencv2\core\types.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAEAAAAAARAQIAAAAAAAAQAAAAAAABgAAQAAAE=</HashCode>
+      <FileName>d:\opencv3\build\include\opencv2\core\types.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cv::Point_&lt;_Tp&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="cv::Point_&lt;_Tp&gt;::value_type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>d:\opencv3\build\include\opencv2\core\types.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAAAIAAAIAAAAAIEEAABgAAAAAAA=</HashCode>
+      <FileName>d:\opencv3\build\include\opencv2\core\types.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="bp::identity&lt;T&gt;" Collapsed="true">
+    <Position X="21.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>census.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::AlgorithmParameters" Collapsed="true">
+    <Position X="16.5" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="bp::AlgorithmParameters::MultiChannelExtractorType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>algorithm_parameters.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="bp::AlgorithmParameters::LinearizerType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>algorithm_parameters.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="bp::AlgorithmParameters::MotionType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>algorithm_parameters.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAAICCAAAAAAAAAAAAAAAABAAQAUQAACAYIAA=</HashCode>
+      <FileName>algorithm_parameters.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::channel_data_traits&lt;BitPlanesChannelDataSubSampled&lt;M&gt;&gt;">
+    <Position X="2.5" Y="9" Width="3" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Typedef Name="bp::channel_data_traits&lt;BitPlanesChannelDataSubSampled&lt;M&gt;&gt;::MotionModelType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::channel_data_traits&lt;BitPlanesChannelDataSubSampled&lt;M&gt;&gt;::Pixels" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::channel_data_traits&lt;BitPlanesChannelDataSubSampled&lt;M&gt;&gt;::Residuals" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>bitplanes_channel_data_base.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bitplanes_channel_data_base.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::Error" Collapsed="true">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>error.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::CaseInsenstiveComparator" Collapsed="true">
+    <Position X="18.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>icompare.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::motion_model_traits&lt;Homography&gt;">
+    <Position X="10.5" Y="9.75" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::ParameterVector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::Jacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Homography&gt;::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>motion_model_traits.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::motion_model_traits&lt;Affine&gt;" Collapsed="true">
+    <Position X="18.25" Y="7.25" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::ParameterVector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::Jacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Affine&gt;::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>motion_model_traits.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::motion_model_traits&lt;Translation&gt;" Collapsed="true">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::Transform" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::Hessian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::ParameterVector" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::Jacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::Gradient" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::JacobianMatrix" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::motion_model_traits&lt;Translation&gt;::WarpJacobian" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>motion_model_traits.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>motion_model_traits.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::EigenStdVector&lt;M&gt;" Collapsed="true">
+    <Position X="16.5" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Typedef Name="bp::EigenStdVector&lt;M&gt;::allocator" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>types.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Typedef Name="bp::EigenStdVector&lt;M&gt;::type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>types.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::Result" Collapsed="true">
+    <Position X="16.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAAAAAAAIAAAAAAUAAAgAAAACAAAAAAAEAAA=</HashCode>
+      <FileName>types.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::v128" Collapsed="true">
+    <Position X="20" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIIAAACAAAAAAAABAwAAAQABAAAAAAAAAIA=</HashCode>
+      <FileName>v128.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="bp::simd::CensusTransformChannel8u" Collapsed="true">
+    <Position X="20" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>census.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ResultForDisplay" Collapsed="true">
+    <Position X="18.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>demo.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GuiData" Collapsed="true">
+    <Position X="20" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABEAAAAAAAAAAABAAAAAAAEAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>demo.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MouseHandleData" Collapsed="true">
+    <Position X="21.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAQAAAAAA=</HashCode>
+      <FileName>demo.cc</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="ImageBufferType" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>demo.cc</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::Rect" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cvfwd.h</FileName>
+    </TypeIdentifier>
+    <AliasOfLine Type="cv::Rect_&lt;_Tp&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="0.5" Y="7.048" />
+        <Point X="0.377" Y="7.048" />
+        <Point X="0.377" Y="8.024" />
+        <Point X="2" Y="8.024" />
+      </Path>
+    </AliasOfLine>
+  </Typedef>
+  <Typedef Name="cv::Point2i" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cvfwd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cv::Point" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>cvfwd.h</FileName>
+    </TypeIdentifier>
+    <AliasOfLine Type="cv::Point2i" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="4.5" />
+        <Point X="1.25" Y="4.048" />
+      </Path>
+    </AliasOfLine>
+  </Typedef>
+  <Enum Name="bp::OptimizerStatus" Collapsed="true">
+    <Position X="20" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAAAAAAAAgAAAACAAAAwAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>types.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="bp::MotionType" Collapsed="true">
+    <Position X="18.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAACAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>types.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="bp::ColorByName" Collapsed="true">
+    <Position X="16.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAgAAAAAAAAAABAAAAAAAAAAAADAAAAA=</HashCode>
+      <FileName>viz.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
