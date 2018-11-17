@@ -1,22 +1,10 @@
-# BitPlanes
-A library for robust real time tracking.
+# MyBitPlanes
+This libarary is  the modified Windows version of the Bitplanes algorithm based on the Linux version provided by the original authors. This is compiled with vs2015.
 
-If you find this work useful, please cite our work
-```
-@proceedings{alismail2016bitplanes,
-  title={Robust Tracking in Low Light and Sudden Illumination Changes},
-  author={{Alismail}, Hatem and {Browning}, Brett and {Lucey}, Simon},
-  booktitle={Internal Conference on 3D Vision (3DV)},
-  year={2016}
-}
-```
 
 [bitplanes]: http://www.cs.cmu.edu/~halismai/bitplanes/
 See [here][bitplanes] for additional details and data.
 
-## Compiling
-
-mkdir build && cd build && cmake -DCMAKE_BUILD_TYPE=Release ../ && make -j3
 
 ### Dependecies
 - Eigen 3.0+

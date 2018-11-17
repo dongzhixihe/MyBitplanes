@@ -1,1 +1,0 @@
-cmake -DCMAKE_TOOLCHAIN_FILE=../cmake/iOS.cmake -DEIGEN_INCLUDE_DIR=/usr/local/opt/eigen/include/eigen3/ ..
